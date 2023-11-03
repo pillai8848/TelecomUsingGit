@@ -6,14 +6,15 @@ phases:
       nodejs: 18
   pre_build:
     commands:
-      - cd my-app
+      #- cd my-app
       - echo Installing source NPM dependencies...
-      - npm install
+      #- npm install
+      - npm install web3
   build:
     commands:
       - echo Build started on 'date'
       - npm run build
-
+      - npm run start
 artifacts:
   files:
     - '**/*'
