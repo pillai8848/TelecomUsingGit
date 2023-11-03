@@ -9,10 +9,13 @@ phases:
       - cd my-app
       - echo Installing source NPM dependencies...
       - npm install
+      - npm install web3
   build:
     commands:
       - echo Build started on 'date'
-      - npm run build
+      #- npx create-react-app my-app      
+      - npm run start
+      #- npm run build
 
 artifacts:
   files:
