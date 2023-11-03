@@ -10,10 +10,10 @@ phases:
       - echo Installing source NPM dependencies...
       #- npm install dotenv
       #- npm install web3
-      - rm -rf node_modules
-      - rm package-lock.json
+      #- rm -rf node_modules
+      #- rm package-lock.json
       #- npm install
-      #- npm install react-scripts
+      - npm install react-scripts
   build:
     commands:
       - echo Build started on 'date'
