@@ -14,7 +14,7 @@ phases:
     commands:
       - echo Build started on 'date'
       #- npx create-react-app my-app      
-      - npm "react-scripts start"
+      - npm run start
       #- npm run build
 
 artifacts:
