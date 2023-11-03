@@ -8,7 +8,7 @@ phases:
     commands:
       - cd my-app
       - echo Installing source NPM dependencies...
-      - npm install
+      - npm install dotenv
       - npm install web3
   build:
     commands:
