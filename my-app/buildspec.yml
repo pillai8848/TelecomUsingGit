@@ -8,19 +8,11 @@ phases:
     commands:
       - cd my-app
       - echo Installing source NPM dependencies...
-      #- npm install dotenv
-      #- npm install web3
-      #- rm -rf node_modules
-      #- rm package-lock.json
-      #- npm install
-      - npm install react-scripts
+      - npm install
   build:
     commands:
       - echo Build started on 'date'
-      #- npx create-react-app my-app    
-      - cd  my-app
-      - npm run start
-      #- npm run build
+      - npm run build
 
 artifacts:
   files:
