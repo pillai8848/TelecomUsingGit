@@ -13,7 +13,8 @@ phases:
   build:
     commands:
       - echo Build started on 'date'
-      #- npx create-react-app my-app      
+      #- npx create-react-app my-app    
+      - cd  my-app
       - npm run start
       #- npm run build
 
