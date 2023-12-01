@@ -1,5 +1,5 @@
 {
-  "contractName": "telecom",
+  "contractName": "Telecom",
   "abi": [
     {
       "inputs": [
@@ -79,16 +79,16 @@
       "constant": true
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.18+commit.87f61d96\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"customers\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"customerId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillDate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCustomerLastBill\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"customerId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillDate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_customerId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_billDate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_billAmount\",\"type\":\"uint256\"}],\"name\":\"submitBill\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/telecom.sol\":\"telecom\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/telecom.sol\":{\"keccak256\":\"0xc566cefb225a9ed9b01a2ae823a886f01985f297589a6205c7cace55cad9c38c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8f8e3a3ef9ecf2578246d0ba26197302e9845a44f9b5357b5e032000200b8d41\",\"dweb:/ipfs/Qmajqhp3ZEw1cLeRMbxuwPTqjKDMihFKpG5LYNioMLVMTW\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506104ec806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063336989ae14610046578063be9e03c214610078578063dfacf7f014610098575b600080fd5b610060600480360381019061005b91906102ab565b6100b4565b60405161006f939291906102f1565b60405180910390f35b6100806100de565b60405161008f939291906102f1565b60405180910390f35b6100b260048036038101906100ad9190610354565b610186565b005b60006020528060005260406000206000915090508060000154908060010154908060020154905083565b6000806000806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600081600001541161016b576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161016290610404565b60405180910390fd5b80600001548160010154826002015493509350935050909192565b600081116101c9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101c090610496565b60405180910390fd5b6040518060600160405280848152602001838152602001828152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082015181600001556020820151816001015560408201518160020155905050505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006102788261024d565b9050919050565b6102888161026d565b811461029357600080fd5b50565b6000813590506102a58161027f565b92915050565b6000602082840312156102c1576102c0610248565b5b60006102cf84828501610296565b91505092915050565b6000819050919050565b6102eb816102d8565b82525050565b600060608201905061030660008301866102e2565b61031360208301856102e2565b61032060408301846102e2565b949350505050565b610331816102d8565b811461033c57600080fd5b50565b60008135905061034e81610328565b92915050565b60008060006060848603121561036d5761036c610248565b5b600061037b8682870161033f565b935050602061038c8682870161033f565b925050604061039d8682870161033f565b9150509250925092565b600082825260208201905092915050565b7f437573746f6d6572204944206e6f7420666f756e640000000000000000000000600082015250565b60006103ee6015836103a7565b91506103f9826103b8565b602082019050919050565b6000602082019050818103600083015261041d816103e1565b9050919050565b7f42696c6c20616d6f756e74206d7573742062652067726561746572207468616e60008201527f207a65726f000000000000000000000000000000000000000000000000000000602082015250565b60006104806025836103a7565b915061048b82610424565b604082019050919050565b600060208201905081810360008301526104af81610473565b905091905056fea2646970667358221220e00ee6e8fdf9f353ed0be5e29f8af3dd9143cb79fa28e070c270c50a04e02f4b64736f6c63430008120033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063336989ae14610046578063be9e03c214610078578063dfacf7f014610098575b600080fd5b610060600480360381019061005b91906102ab565b6100b4565b60405161006f939291906102f1565b60405180910390f35b6100806100de565b60405161008f939291906102f1565b60405180910390f35b6100b260048036038101906100ad9190610354565b610186565b005b60006020528060005260406000206000915090508060000154908060010154908060020154905083565b6000806000806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600081600001541161016b576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161016290610404565b60405180910390fd5b80600001548160010154826002015493509350935050909192565b600081116101c9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101c090610496565b60405180910390fd5b6040518060600160405280848152602001838152602001828152506000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082015181600001556020820151816001015560408201518160020155905050505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006102788261024d565b9050919050565b6102888161026d565b811461029357600080fd5b50565b6000813590506102a58161027f565b92915050565b6000602082840312156102c1576102c0610248565b5b60006102cf84828501610296565b91505092915050565b6000819050919050565b6102eb816102d8565b82525050565b600060608201905061030660008301866102e2565b61031360208301856102e2565b61032060408301846102e2565b949350505050565b610331816102d8565b811461033c57600080fd5b50565b60008135905061034e81610328565b92915050565b60008060006060848603121561036d5761036c610248565b5b600061037b8682870161033f565b935050602061038c8682870161033f565b925050604061039d8682870161033f565b9150509250925092565b600082825260208201905092915050565b7f437573746f6d6572204944206e6f7420666f756e640000000000000000000000600082015250565b60006103ee6015836103a7565b91506103f9826103b8565b602082019050919050565b6000602082019050818103600083015261041d816103e1565b9050919050565b7f42696c6c20616d6f756e74206d7573742062652067726561746572207468616e60008201527f207a65726f000000000000000000000000000000000000000000000000000000602082015250565b60006104806025836103a7565b915061048b82610424565b604082019050919050565b600060208201905081810360008301526104af81610473565b905091905056fea2646970667358221220e00ee6e8fdf9f353ed0be5e29f8af3dd9143cb79fa28e070c270c50a04e02f4b64736f6c63430008120033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.18+commit.87f61d96\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"customers\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"customerId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillDate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCustomerLastBill\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"customerId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillDate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"lastBillAmount\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_customerId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_billDate\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_billAmount\",\"type\":\"uint256\"}],\"name\":\"submitBill\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Tele.sol\":\"Telecom\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Tele.sol\":{\"keccak256\":\"0xd95fa998b0e913dd13aba9a74864d24efbd9da291faa5d1f9b18eddb14fd6bf3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c8391c81ab4789b0efa77529e8732e8765862456de52651dc9457bd882cdc616\",\"dweb:/ipfs/QmTwEF5zT3qmVHVgdJRLikeYMKbELpDFXpKCUzEKzbL5Mi\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506105a5806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063336989ae14610046578063be9e03c214610078578063dfacf7f014610098575b600080fd5b610060600480360381019061005b91906102d2565b6100b4565b60405161006f93929190610318565b60405180910390f35b6100806100de565b60405161008f93929190610318565b60405180910390f35b6100b260048036038101906100ad919061037b565b610186565b005b60006020528060005260406000206000915090508060000154908060010154908060020154905083565b6000806000806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600081600001541161016b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101629061042b565b60405180910390fd5b80600001548160010154826002015493509350935050909192565b600083116101c9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101c0906104bd565b60405180910390fd5b6000811161020c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102039061054f565b60405180910390fd5b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020905083816000018190555082816001018190555081816002018190555050505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b600061029f82610274565b9050919050565b6102af81610294565b81146102ba57600080fd5b50565b6000813590506102cc816102a6565b92915050565b6000602082840312156102e8576102e761026f565b5b60006102f6848285016102bd565b91505092915050565b6000819050919050565b610312816102ff565b82525050565b600060608201905061032d6000830186610309565b61033a6020830185610309565b6103476040830184610309565b949350505050565b610358816102ff565b811461036357600080fd5b50565b6000813590506103758161034f565b92915050565b6000806000606084860312156103945761039361026f565b5b60006103a286828701610366565b93505060206103b386828701610366565b92505060406103c486828701610366565b9150509250925092565b600082825260208201905092915050565b7f437573746f6d6572204944206e6f7420666f756e640000000000000000000000600082015250565b60006104156015836103ce565b9150610420826103df565b602082019050919050565b6000602082019050818103600083015261044481610408565b9050919050565b7f437573746f6d6572204944206d7573742062652067726561746572207468616e60008201527f207a65726f000000000000000000000000000000000000000000000000000000602082015250565b60006104a76025836103ce565b91506104b28261044b565b604082019050919050565b600060208201905081810360008301526104d68161049a565b9050919050565b7f42696c6c20616d6f756e74206d7573742062652067726561746572207468616e60008201527f207a65726f000000000000000000000000000000000000000000000000000000602082015250565b60006105396025836103ce565b9150610544826104dd565b604082019050919050565b600060208201905081810360008301526105688161052c565b905091905056fea26469706673582212207c692c0e7961bac8fee57ff22d1195cb23ef25f3b39a1e22fd8a19116dbd0c0664736f6c63430008120033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063336989ae14610046578063be9e03c214610078578063dfacf7f014610098575b600080fd5b610060600480360381019061005b91906102d2565b6100b4565b60405161006f93929190610318565b60405180910390f35b6100806100de565b60405161008f93929190610318565b60405180910390f35b6100b260048036038101906100ad919061037b565b610186565b005b60006020528060005260406000206000915090508060000154908060010154908060020154905083565b6000806000806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600081600001541161016b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101629061042b565b60405180910390fd5b80600001548160010154826002015493509350935050909192565b600083116101c9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101c0906104bd565b60405180910390fd5b6000811161020c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102039061054f565b60405180910390fd5b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020905083816000018190555082816001018190555081816002018190555050505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b600061029f82610274565b9050919050565b6102af81610294565b81146102ba57600080fd5b50565b6000813590506102cc816102a6565b92915050565b6000602082840312156102e8576102e761026f565b5b60006102f6848285016102bd565b91505092915050565b6000819050919050565b610312816102ff565b82525050565b600060608201905061032d6000830186610309565b61033a6020830185610309565b6103476040830184610309565b949350505050565b610358816102ff565b811461036357600080fd5b50565b6000813590506103758161034f565b92915050565b6000806000606084860312156103945761039361026f565b5b60006103a286828701610366565b93505060206103b386828701610366565b92505060406103c486828701610366565b9150509250925092565b600082825260208201905092915050565b7f437573746f6d6572204944206e6f7420666f756e640000000000000000000000600082015250565b60006104156015836103ce565b9150610420826103df565b602082019050919050565b6000602082019050818103600083015261044481610408565b9050919050565b7f437573746f6d6572204944206d7573742062652067726561746572207468616e60008201527f207a65726f000000000000000000000000000000000000000000000000000000602082015250565b60006104a76025836103ce565b91506104b28261044b565b604082019050919050565b600060208201905081810360008301526104d68161049a565b9050919050565b7f42696c6c20616d6f756e74206d7573742062652067726561746572207468616e60008201527f207a65726f000000000000000000000000000000000000000000000000000000602082015250565b60006105396025836103ce565b9150610544826104dd565b604082019050919050565b600060208201905081810360008301526105688161052c565b905091905056fea26469706673582212207c692c0e7961bac8fee57ff22d1195cb23ef25f3b39a1e22fd8a19116dbd0c0664736f6c63430008120033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
     {
       "ast": {
         "nodeType": "YulBlock",
-        "src": "0:4902:1",
+        "src": "0:5929:1",
         "statements": [
           {
             "body": {
@@ -1954,12 +1954,12 @@
                         "src": "4002:14:1"
                       },
                       {
-                        "hexValue": "42696c6c20616d6f756e74206d7573742062652067726561746572207468616e",
+                        "hexValue": "437573746f6d6572204944206d7573742062652067726561746572207468616e",
                         "kind": "string",
                         "nodeType": "YulLiteral",
                         "src": "4018:34:1",
                         "type": "",
-                        "value": "Bill amount must be greater than"
+                        "value": "Customer ID must be greater than"
                       }
                     ],
                     "functionName": {
@@ -2021,7 +2021,7 @@
                 }
               ]
             },
-            "name": "store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778",
+            "name": "store_literal_in_memory_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2082,7 +2082,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778",
+                      "name": "store_literal_in_memory_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f",
                       "nodeType": "YulIdentifier",
                       "src": "4347:88:1"
                     },
@@ -2128,7 +2128,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack",
+            "name": "abi_encode_t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f_to_t_string_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2258,7 +2258,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack",
+                      "name": "abi_encode_t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f_to_t_string_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "4761:124:1"
                     },
@@ -2275,7 +2275,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778__to_t_string_memory_ptr__fromStack_reversed",
+            "name": "abi_encode_tuple_t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f__to_t_string_memory_ptr__fromStack_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2294,27 +2294,400 @@
               }
             ],
             "src": "4480:419:1"
+          },
+          {
+            "body": {
+              "nodeType": "YulBlock",
+              "src": "5011:118:1",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "memPtr",
+                            "nodeType": "YulIdentifier",
+                            "src": "5033:6:1"
+                          },
+                          {
+                            "kind": "number",
+                            "nodeType": "YulLiteral",
+                            "src": "5041:1:1",
+                            "type": "",
+                            "value": "0"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "add",
+                          "nodeType": "YulIdentifier",
+                          "src": "5029:3:1"
+                        },
+                        "nodeType": "YulFunctionCall",
+                        "src": "5029:14:1"
+                      },
+                      {
+                        "hexValue": "42696c6c20616d6f756e74206d7573742062652067726561746572207468616e",
+                        "kind": "string",
+                        "nodeType": "YulLiteral",
+                        "src": "5045:34:1",
+                        "type": "",
+                        "value": "Bill amount must be greater than"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "mstore",
+                      "nodeType": "YulIdentifier",
+                      "src": "5022:6:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5022:58:1"
+                  },
+                  "nodeType": "YulExpressionStatement",
+                  "src": "5022:58:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "memPtr",
+                            "nodeType": "YulIdentifier",
+                            "src": "5101:6:1"
+                          },
+                          {
+                            "kind": "number",
+                            "nodeType": "YulLiteral",
+                            "src": "5109:2:1",
+                            "type": "",
+                            "value": "32"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "add",
+                          "nodeType": "YulIdentifier",
+                          "src": "5097:3:1"
+                        },
+                        "nodeType": "YulFunctionCall",
+                        "src": "5097:15:1"
+                      },
+                      {
+                        "hexValue": "207a65726f",
+                        "kind": "string",
+                        "nodeType": "YulLiteral",
+                        "src": "5114:7:1",
+                        "type": "",
+                        "value": " zero"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "mstore",
+                      "nodeType": "YulIdentifier",
+                      "src": "5090:6:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5090:32:1"
+                  },
+                  "nodeType": "YulExpressionStatement",
+                  "src": "5090:32:1"
+                }
+              ]
+            },
+            "name": "store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778",
+            "nodeType": "YulFunctionDefinition",
+            "parameters": [
+              {
+                "name": "memPtr",
+                "nodeType": "YulTypedName",
+                "src": "5003:6:1",
+                "type": ""
+              }
+            ],
+            "src": "4905:224:1"
+          },
+          {
+            "body": {
+              "nodeType": "YulBlock",
+              "src": "5281:220:1",
+              "statements": [
+                {
+                  "nodeType": "YulAssignment",
+                  "src": "5291:74:1",
+                  "value": {
+                    "arguments": [
+                      {
+                        "name": "pos",
+                        "nodeType": "YulIdentifier",
+                        "src": "5357:3:1"
+                      },
+                      {
+                        "kind": "number",
+                        "nodeType": "YulLiteral",
+                        "src": "5362:2:1",
+                        "type": "",
+                        "value": "37"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "array_storeLengthForEncoding_t_string_memory_ptr_fromStack",
+                      "nodeType": "YulIdentifier",
+                      "src": "5298:58:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5298:67:1"
+                  },
+                  "variableNames": [
+                    {
+                      "name": "pos",
+                      "nodeType": "YulIdentifier",
+                      "src": "5291:3:1"
+                    }
+                  ]
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "name": "pos",
+                        "nodeType": "YulIdentifier",
+                        "src": "5463:3:1"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778",
+                      "nodeType": "YulIdentifier",
+                      "src": "5374:88:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5374:93:1"
+                  },
+                  "nodeType": "YulExpressionStatement",
+                  "src": "5374:93:1"
+                },
+                {
+                  "nodeType": "YulAssignment",
+                  "src": "5476:19:1",
+                  "value": {
+                    "arguments": [
+                      {
+                        "name": "pos",
+                        "nodeType": "YulIdentifier",
+                        "src": "5487:3:1"
+                      },
+                      {
+                        "kind": "number",
+                        "nodeType": "YulLiteral",
+                        "src": "5492:2:1",
+                        "type": "",
+                        "value": "64"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "add",
+                      "nodeType": "YulIdentifier",
+                      "src": "5483:3:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5483:12:1"
+                  },
+                  "variableNames": [
+                    {
+                      "name": "end",
+                      "nodeType": "YulIdentifier",
+                      "src": "5476:3:1"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": "abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack",
+            "nodeType": "YulFunctionDefinition",
+            "parameters": [
+              {
+                "name": "pos",
+                "nodeType": "YulTypedName",
+                "src": "5269:3:1",
+                "type": ""
+              }
+            ],
+            "returnVariables": [
+              {
+                "name": "end",
+                "nodeType": "YulTypedName",
+                "src": "5277:3:1",
+                "type": ""
+              }
+            ],
+            "src": "5135:366:1"
+          },
+          {
+            "body": {
+              "nodeType": "YulBlock",
+              "src": "5678:248:1",
+              "statements": [
+                {
+                  "nodeType": "YulAssignment",
+                  "src": "5688:26:1",
+                  "value": {
+                    "arguments": [
+                      {
+                        "name": "headStart",
+                        "nodeType": "YulIdentifier",
+                        "src": "5700:9:1"
+                      },
+                      {
+                        "kind": "number",
+                        "nodeType": "YulLiteral",
+                        "src": "5711:2:1",
+                        "type": "",
+                        "value": "32"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "add",
+                      "nodeType": "YulIdentifier",
+                      "src": "5696:3:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5696:18:1"
+                  },
+                  "variableNames": [
+                    {
+                      "name": "tail",
+                      "nodeType": "YulIdentifier",
+                      "src": "5688:4:1"
+                    }
+                  ]
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "headStart",
+                            "nodeType": "YulIdentifier",
+                            "src": "5735:9:1"
+                          },
+                          {
+                            "kind": "number",
+                            "nodeType": "YulLiteral",
+                            "src": "5746:1:1",
+                            "type": "",
+                            "value": "0"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "add",
+                          "nodeType": "YulIdentifier",
+                          "src": "5731:3:1"
+                        },
+                        "nodeType": "YulFunctionCall",
+                        "src": "5731:17:1"
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "name": "tail",
+                            "nodeType": "YulIdentifier",
+                            "src": "5754:4:1"
+                          },
+                          {
+                            "name": "headStart",
+                            "nodeType": "YulIdentifier",
+                            "src": "5760:9:1"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "sub",
+                          "nodeType": "YulIdentifier",
+                          "src": "5750:3:1"
+                        },
+                        "nodeType": "YulFunctionCall",
+                        "src": "5750:20:1"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "mstore",
+                      "nodeType": "YulIdentifier",
+                      "src": "5724:6:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5724:47:1"
+                  },
+                  "nodeType": "YulExpressionStatement",
+                  "src": "5724:47:1"
+                },
+                {
+                  "nodeType": "YulAssignment",
+                  "src": "5780:139:1",
+                  "value": {
+                    "arguments": [
+                      {
+                        "name": "tail",
+                        "nodeType": "YulIdentifier",
+                        "src": "5914:4:1"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack",
+                      "nodeType": "YulIdentifier",
+                      "src": "5788:124:1"
+                    },
+                    "nodeType": "YulFunctionCall",
+                    "src": "5788:131:1"
+                  },
+                  "variableNames": [
+                    {
+                      "name": "tail",
+                      "nodeType": "YulIdentifier",
+                      "src": "5780:4:1"
+                    }
+                  ]
+                }
+              ]
+            },
+            "name": "abi_encode_tuple_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778__to_t_string_memory_ptr__fromStack_reversed",
+            "nodeType": "YulFunctionDefinition",
+            "parameters": [
+              {
+                "name": "headStart",
+                "nodeType": "YulTypedName",
+                "src": "5658:9:1",
+                "type": ""
+              }
+            ],
+            "returnVariables": [
+              {
+                "name": "tail",
+                "nodeType": "YulTypedName",
+                "src": "5673:4:1",
+                "type": ""
+              }
+            ],
+            "src": "5507:419:1"
           }
         ]
       },
-      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256_t_uint256_t_uint256__to_t_uint256_t_uint256_t_uint256__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256t_uint256t_uint256(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function store_literal_in_memory_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002(memPtr) {\n\n        mstore(add(memPtr, 0), \"Customer ID not found\")\n\n    }\n\n    function abi_encode_t_stringliteral_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 21)\n        store_literal_in_memory_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778(memPtr) {\n\n        mstore(add(memPtr, 0), \"Bill amount must be greater than\")\n\n        mstore(add(memPtr, 32), \" zero\")\n\n    }\n\n    function abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 37)\n        store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n}\n",
+      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256_t_uint256_t_uint256__to_t_uint256_t_uint256_t_uint256__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256t_uint256t_uint256(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function store_literal_in_memory_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002(memPtr) {\n\n        mstore(add(memPtr, 0), \"Customer ID not found\")\n\n    }\n\n    function abi_encode_t_stringliteral_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 21)\n        store_literal_in_memory_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f(memPtr) {\n\n        mstore(add(memPtr, 0), \"Customer ID must be greater than\")\n\n        mstore(add(memPtr, 32), \" zero\")\n\n    }\n\n    function abi_encode_t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 37)\n        store_literal_in_memory_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778(memPtr) {\n\n        mstore(add(memPtr, 0), \"Bill amount must be greater than\")\n\n        mstore(add(memPtr, 32), \" zero\")\n\n    }\n\n    function abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 37)\n        store_literal_in_memory_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n}\n",
       "id": 1,
       "language": "Yul",
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "58:894:0:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "58:894:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;200:45;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;624:325;;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;300:249;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;200:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;624:325::-;676:18;696:20;718:22;748:25;776:9;:21;786:10;776:21;;;;;;;;;;;;;;;748:49;;833:1;811:8;:19;;;:23;803:57;;;;;;;;;;;;:::i;:::-;;;;;;;;;874:8;:19;;;895:8;:21;;;918:8;:23;;;866:76;;;;;;;624:325;;;:::o;300:249::-;420:1;406:11;:15;398:65;;;;;;;;;;;;:::i;:::-;;;;;;;;;497:45;;;;;;;;506:11;497:45;;;;519:9;497:45;;;;530:11;497:45;;;473:9;:21;483:10;473:21;;;;;;;;;;;;;;;:69;;;;;;;;;;;;;;;;;;;;;;;;;;;300:249;;;:::o;88:117:1:-;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:139::-;742:5;780:6;767:20;758:29;;796:33;823:5;796:33;:::i;:::-;696:139;;;;:::o;841:329::-;900:6;949:2;937:9;928:7;924:23;920:32;917:119;;;955:79;;:::i;:::-;917:119;1075:1;1100:53;1145:7;1136:6;1125:9;1121:22;1100:53;:::i;:::-;1090:63;;1046:117;841:329;;;;:::o;1176:77::-;1213:7;1242:5;1231:16;;1176:77;;;:::o;1259:118::-;1346:24;1364:5;1346:24;:::i;:::-;1341:3;1334:37;1259:118;;:::o;1383:442::-;1532:4;1570:2;1559:9;1555:18;1547:26;;1583:71;1651:1;1640:9;1636:17;1627:6;1583:71;:::i;:::-;1664:72;1732:2;1721:9;1717:18;1708:6;1664:72;:::i;:::-;1746;1814:2;1803:9;1799:18;1790:6;1746:72;:::i;:::-;1383:442;;;;;;:::o;1831:122::-;1904:24;1922:5;1904:24;:::i;:::-;1897:5;1894:35;1884:63;;1943:1;1940;1933:12;1884:63;1831:122;:::o;1959:139::-;2005:5;2043:6;2030:20;2021:29;;2059:33;2086:5;2059:33;:::i;:::-;1959:139;;;;:::o;2104:619::-;2181:6;2189;2197;2246:2;2234:9;2225:7;2221:23;2217:32;2214:119;;;2252:79;;:::i;:::-;2214:119;2372:1;2397:53;2442:7;2433:6;2422:9;2418:22;2397:53;:::i;:::-;2387:63;;2343:117;2499:2;2525:53;2570:7;2561:6;2550:9;2546:22;2525:53;:::i;:::-;2515:63;;2470:118;2627:2;2653:53;2698:7;2689:6;2678:9;2674:22;2653:53;:::i;:::-;2643:63;;2598:118;2104:619;;;;;:::o;2729:169::-;2813:11;2847:6;2842:3;2835:19;2887:4;2882:3;2878:14;2863:29;;2729:169;;;;:::o;2904:171::-;3044:23;3040:1;3032:6;3028:14;3021:47;2904:171;:::o;3081:366::-;3223:3;3244:67;3308:2;3303:3;3244:67;:::i;:::-;3237:74;;3320:93;3409:3;3320:93;:::i;:::-;3438:2;3433:3;3429:12;3422:19;;3081:366;;;:::o;3453:419::-;3619:4;3657:2;3646:9;3642:18;3634:26;;3706:9;3700:4;3696:20;3692:1;3681:9;3677:17;3670:47;3734:131;3860:4;3734:131;:::i;:::-;3726:139;;3453:419;;;:::o;3878:224::-;4018:34;4014:1;4006:6;4002:14;3995:58;4087:7;4082:2;4074:6;4070:15;4063:32;3878:224;:::o;4108:366::-;4250:3;4271:67;4335:2;4330:3;4271:67;:::i;:::-;4264:74;;4347:93;4436:3;4347:93;:::i;:::-;4465:2;4460:3;4456:12;4449:19;;4108:366;;;:::o;4480:419::-;4646:4;4684:2;4673:9;4669:18;4661:26;;4733:9;4727:4;4723:20;4719:1;4708:9;4704:17;4697:47;4761:131;4887:4;4761:131;:::i;:::-;4753:139;;4480:419;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.18;\n\ncontract telecom {\n    struct Customer {\n        uint256 customerId;\n        uint256 lastBillDate;\n        uint256 lastBillAmount;\n    }\n\n    mapping(address => Customer) public customers;\n\n    // Function to submit a bill for a customer\n    function submitBill(uint256 _customerId, uint256 _billDate, uint256 _billAmount) public {\n        require(_billAmount > 0, \"Bill amount must be greater than zero\");\n        customers[msg.sender] = Customer(_customerId, _billDate, _billAmount);\n    }\n\n    // Function to retrieve the customer's last bill date and amount\n    function getCustomerLastBill() public view returns (uint256 customerId, uint256 lastBillDate, uint256 lastBillAmount) {\n    Customer storage customer = customers[msg.sender];\n    require(customer.customerId > 0, \"Customer ID not found\");\n    return (customer.customerId, customer.lastBillDate, customer.lastBillAmount);\n    }\n\n}",
-  "sourcePath": "D:\\Prasanth\\CCBC2\\611 - Adoption of Cloud Computing and Blockchain\\TelecomProject\\TelecomUsingLocal\\UsingRemix\\contracts\\telecom.sol",
+  "sourceMap": "61:1120:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "61:1120:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;210:45;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;837:341;;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;313:446;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;210:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;837:341::-;889:18;909:20;931:22;966:25;994:9;:21;1004:10;994:21;;;;;;;;;;;;;;;966:49;;1056:1;1034:8;:19;;;:23;1026:57;;;;;;;;;;;;:::i;:::-;;;;;;;;;1102:8;:19;;;1123:8;:21;;;1146:8;:23;;;1094:76;;;;;;;837:341;;;:::o;313:446::-;434:1;420:11;:15;412:65;;;;;;;;;;;;:::i;:::-;;;;;;;;;510:1;496:11;:15;488:65;;;;;;;;;;;;:::i;:::-;;;;;;;;;566:25;594:9;:21;604:10;594:21;;;;;;;;;;;;;;;566:49;;648:11;626:8;:19;;:33;;;;694:9;670:8;:21;;:33;;;;740:11;714:8;:23;;:37;;;;401:358;313:446;;;:::o;88:117:1:-;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:139::-;742:5;780:6;767:20;758:29;;796:33;823:5;796:33;:::i;:::-;696:139;;;;:::o;841:329::-;900:6;949:2;937:9;928:7;924:23;920:32;917:119;;;955:79;;:::i;:::-;917:119;1075:1;1100:53;1145:7;1136:6;1125:9;1121:22;1100:53;:::i;:::-;1090:63;;1046:117;841:329;;;;:::o;1176:77::-;1213:7;1242:5;1231:16;;1176:77;;;:::o;1259:118::-;1346:24;1364:5;1346:24;:::i;:::-;1341:3;1334:37;1259:118;;:::o;1383:442::-;1532:4;1570:2;1559:9;1555:18;1547:26;;1583:71;1651:1;1640:9;1636:17;1627:6;1583:71;:::i;:::-;1664:72;1732:2;1721:9;1717:18;1708:6;1664:72;:::i;:::-;1746;1814:2;1803:9;1799:18;1790:6;1746:72;:::i;:::-;1383:442;;;;;;:::o;1831:122::-;1904:24;1922:5;1904:24;:::i;:::-;1897:5;1894:35;1884:63;;1943:1;1940;1933:12;1884:63;1831:122;:::o;1959:139::-;2005:5;2043:6;2030:20;2021:29;;2059:33;2086:5;2059:33;:::i;:::-;1959:139;;;;:::o;2104:619::-;2181:6;2189;2197;2246:2;2234:9;2225:7;2221:23;2217:32;2214:119;;;2252:79;;:::i;:::-;2214:119;2372:1;2397:53;2442:7;2433:6;2422:9;2418:22;2397:53;:::i;:::-;2387:63;;2343:117;2499:2;2525:53;2570:7;2561:6;2550:9;2546:22;2525:53;:::i;:::-;2515:63;;2470:118;2627:2;2653:53;2698:7;2689:6;2678:9;2674:22;2653:53;:::i;:::-;2643:63;;2598:118;2104:619;;;;;:::o;2729:169::-;2813:11;2847:6;2842:3;2835:19;2887:4;2882:3;2878:14;2863:29;;2729:169;;;;:::o;2904:171::-;3044:23;3040:1;3032:6;3028:14;3021:47;2904:171;:::o;3081:366::-;3223:3;3244:67;3308:2;3303:3;3244:67;:::i;:::-;3237:74;;3320:93;3409:3;3320:93;:::i;:::-;3438:2;3433:3;3429:12;3422:19;;3081:366;;;:::o;3453:419::-;3619:4;3657:2;3646:9;3642:18;3634:26;;3706:9;3700:4;3696:20;3692:1;3681:9;3677:17;3670:47;3734:131;3860:4;3734:131;:::i;:::-;3726:139;;3453:419;;;:::o;3878:224::-;4018:34;4014:1;4006:6;4002:14;3995:58;4087:7;4082:2;4074:6;4070:15;4063:32;3878:224;:::o;4108:366::-;4250:3;4271:67;4335:2;4330:3;4271:67;:::i;:::-;4264:74;;4347:93;4436:3;4347:93;:::i;:::-;4465:2;4460:3;4456:12;4449:19;;4108:366;;;:::o;4480:419::-;4646:4;4684:2;4673:9;4669:18;4661:26;;4733:9;4727:4;4723:20;4719:1;4708:9;4704:17;4697:47;4761:131;4887:4;4761:131;:::i;:::-;4753:139;;4480:419;;;:::o;4905:224::-;5045:34;5041:1;5033:6;5029:14;5022:58;5114:7;5109:2;5101:6;5097:15;5090:32;4905:224;:::o;5135:366::-;5277:3;5298:67;5362:2;5357:3;5298:67;:::i;:::-;5291:74;;5374:93;5463:3;5374:93;:::i;:::-;5492:2;5487:3;5483:12;5476:19;;5135:366;;;:::o;5507:419::-;5673:4;5711:2;5700:9;5696:18;5688:26;;5760:9;5754:4;5750:20;5746:1;5735:9;5731:17;5724:47;5788:131;5914:4;5788:131;:::i;:::-;5780:139;;5507:419;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.18;\r\n\r\ncontract Telecom {\r\n    struct Customer {\r\n        uint256 customerId;\r\n        uint256 lastBillDate;\r\n        uint256 lastBillAmount;\r\n    }\r\n\r\n    mapping(address => Customer) public customers;\r\n\r\n    // Function to submit a bill for a customer\r\n    function submitBill(uint256 _customerId, uint256 _billDate, uint256 _billAmount) public {\r\n        require(_customerId > 0, \"Customer ID must be greater than zero\");\r\n        require(_billAmount > 0, \"Bill amount must be greater than zero\");\r\n\r\n        Customer storage customer = customers[msg.sender];\r\n        customer.customerId = _customerId;\r\n        customer.lastBillDate = _billDate;\r\n        customer.lastBillAmount = _billAmount;\r\n    }\r\n\r\n    // Function to retrieve the customer's last bill date and amount\r\n    function getCustomerLastBill() public view returns (uint256 customerId, uint256 lastBillDate, uint256 lastBillAmount) {\r\n        Customer storage customer = customers[msg.sender];\r\n        require(customer.customerId > 0, \"Customer ID not found\");\r\n        return (customer.customerId, customer.lastBillDate, customer.lastBillAmount);\r\n    }\r\n}\r\n",
+  "sourcePath": "D:\\Prasanth\\CCBC2\\611 - Adoption of Cloud Computing and Blockchain\\TelecomProject\\Telcom_GitRepo\\Tfq_GitRepo\\SmartContract\\contracts\\Tele.sol",
   "ast": {
-    "absolutePath": "project:/contracts/telecom.sol",
+    "absolutePath": "project:/contracts/Tele.sol",
     "exportedSymbols": {
-      "telecom": [
-        76
+      "Telecom": [
+        98
       ]
     },
-    "id": 77,
+    "id": 99,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
@@ -2327,25 +2700,25 @@
           ".18"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:24:0"
+        "src": "33:24:0"
       },
       {
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "telecom",
+        "canonicalName": "Telecom",
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 76,
+        "id": 98,
         "linearizedBaseContracts": [
-          76
+          98
         ],
-        "name": "telecom",
-        "nameLocation": "67:7:0",
+        "name": "Telecom",
+        "nameLocation": "70:7:0",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "canonicalName": "telecom.Customer",
+            "canonicalName": "Telecom.Customer",
             "id": 8,
             "members": [
               {
@@ -2353,10 +2726,10 @@
                 "id": 3,
                 "mutability": "mutable",
                 "name": "customerId",
-                "nameLocation": "115:10:0",
+                "nameLocation": "120:10:0",
                 "nodeType": "VariableDeclaration",
                 "scope": 8,
-                "src": "107:18:0",
+                "src": "112:18:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2367,7 +2740,7 @@
                   "id": 2,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "107:7:0",
+                  "src": "112:7:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -2380,10 +2753,10 @@
                 "id": 5,
                 "mutability": "mutable",
                 "name": "lastBillDate",
-                "nameLocation": "143:12:0",
+                "nameLocation": "149:12:0",
                 "nodeType": "VariableDeclaration",
                 "scope": 8,
-                "src": "135:20:0",
+                "src": "141:20:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2394,7 +2767,7 @@
                   "id": 4,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "135:7:0",
+                  "src": "141:7:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -2407,10 +2780,10 @@
                 "id": 7,
                 "mutability": "mutable",
                 "name": "lastBillAmount",
-                "nameLocation": "173:14:0",
+                "nameLocation": "180:14:0",
                 "nodeType": "VariableDeclaration",
                 "scope": 8,
-                "src": "165:22:0",
+                "src": "172:22:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2421,7 +2794,7 @@
                   "id": 6,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "165:7:0",
+                  "src": "172:7:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -2431,10 +2804,10 @@
               }
             ],
             "name": "Customer",
-            "nameLocation": "88:8:0",
+            "nameLocation": "92:8:0",
             "nodeType": "StructDefinition",
-            "scope": 76,
-            "src": "81:113:0",
+            "scope": 98,
+            "src": "85:117:0",
             "visibility": "public"
           },
           {
@@ -2443,15 +2816,15 @@
             "id": 13,
             "mutability": "mutable",
             "name": "customers",
-            "nameLocation": "236:9:0",
+            "nameLocation": "246:9:0",
             "nodeType": "VariableDeclaration",
-            "scope": 76,
-            "src": "200:45:0",
+            "scope": 98,
+            "src": "210:45:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Customer_$8_storage_$",
-              "typeString": "mapping(address => struct telecom.Customer)"
+              "typeString": "mapping(address => struct Telecom.Customer)"
             },
             "typeName": {
               "id": 12,
@@ -2461,17 +2834,17 @@
                 "id": 9,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "208:7:0",
+                "src": "218:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "200:28:0",
+              "src": "210:28:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Customer_$8_storage_$",
-                "typeString": "mapping(address => struct telecom.Customer)"
+                "typeString": "mapping(address => struct Telecom.Customer)"
               },
               "valueName": "",
               "valueNameLocation": "-1:-1:-1",
@@ -2482,17 +2855,17 @@
                   "id": 10,
                   "name": "Customer",
                   "nameLocations": [
-                    "219:8:0"
+                    "229:8:0"
                   ],
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 8,
-                  "src": "219:8:0"
+                  "src": "229:8:0"
                 },
                 "referencedDeclaration": 8,
-                "src": "219:8:0",
+                "src": "229:8:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
-                  "typeString": "struct telecom.Customer"
+                  "typeString": "struct Telecom.Customer"
                 }
               }
             },
@@ -2500,9 +2873,9 @@
           },
           {
             "body": {
-              "id": 40,
+              "id": 62,
               "nodeType": "Block",
-              "src": "388:161:0",
+              "src": "401:358:0",
               "statements": [
                 {
                   "expression": {
@@ -2519,11 +2892,11 @@
                         "lValueRequested": false,
                         "leftExpression": {
                           "id": 23,
-                          "name": "_billAmount",
+                          "name": "_customerId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 19,
-                          "src": "406:11:0",
+                          "referencedDeclaration": 15,
+                          "src": "420:11:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2540,21 +2913,21 @@
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "420:1:0",
+                          "src": "434:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
                             "typeString": "int_const 0"
                           },
                           "value": "0"
                         },
-                        "src": "406:15:0",
+                        "src": "420:15:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         }
                       },
                       {
-                        "hexValue": "42696c6c20616d6f756e74206d7573742062652067726561746572207468616e207a65726f",
+                        "hexValue": "437573746f6d6572204944206d7573742062652067726561746572207468616e207a65726f",
                         "id": 26,
                         "isConstant": false,
                         "isLValue": false,
@@ -2562,7 +2935,118 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "423:39:0",
+                        "src": "437:39:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f",
+                          "typeString": "literal_string \"Customer ID must be greater than zero\""
+                        },
+                        "value": "Customer ID must be greater than zero"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_494729ac0f3e685fb367413a66e97303875d397280f324fd51e1920c2c46d23f",
+                          "typeString": "literal_string \"Customer ID must be greater than zero\""
+                        }
+                      ],
+                      "id": 22,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        4294967278,
+                        4294967278
+                      ],
+                      "referencedDeclaration": 4294967278,
+                      "src": "412:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 27,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "412:65:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 28,
+                  "nodeType": "ExpressionStatement",
+                  "src": "412:65:0"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 32,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 30,
+                          "name": "_billAmount",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 19,
+                          "src": "496:11:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "hexValue": "30",
+                          "id": 31,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "510:1:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "496:15:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "42696c6c20616d6f756e74206d7573742062652067726561746572207468616e207a65726f",
+                        "id": 33,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "513:39:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_455b11e17edfb40b843dc0560393539e2c921fc55349d784424e710573e74778",
                           "typeString": "literal_string \"Bill amount must be greater than zero\""
@@ -2581,7 +3065,7 @@
                           "typeString": "literal_string \"Bill amount must be greater than zero\""
                         }
                       ],
-                      "id": 22,
+                      "id": 29,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -2589,13 +3073,13 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "398:7:0",
+                      "src": "488:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 27,
+                    "id": 34,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2604,178 +3088,302 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "398:65:0",
+                    "src": "488:65:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 28,
+                  "id": 35,
                   "nodeType": "ExpressionStatement",
-                  "src": "398:65:0"
+                  "src": "488:65:0"
+                },
+                {
+                  "assignments": [
+                    38
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 38,
+                      "mutability": "mutable",
+                      "name": "customer",
+                      "nameLocation": "583:8:0",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 62,
+                      "src": "566:25:0",
+                      "stateVariable": false,
+                      "storageLocation": "storage",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
+                        "typeString": "struct Telecom.Customer"
+                      },
+                      "typeName": {
+                        "id": 37,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 36,
+                          "name": "Customer",
+                          "nameLocations": [
+                            "566:8:0"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 8,
+                          "src": "566:8:0"
+                        },
+                        "referencedDeclaration": 8,
+                        "src": "566:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
+                          "typeString": "struct Telecom.Customer"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 43,
+                  "initialValue": {
+                    "baseExpression": {
+                      "id": 39,
+                      "name": "customers",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 13,
+                      "src": "594:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Customer_$8_storage_$",
+                        "typeString": "mapping(address => struct Telecom.Customer storage ref)"
+                      }
+                    },
+                    "id": 42,
+                    "indexExpression": {
+                      "expression": {
+                        "id": 40,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 4294967281,
+                        "src": "604:3:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 41,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "608:6:0",
+                      "memberName": "sender",
+                      "nodeType": "MemberAccess",
+                      "src": "604:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "594:21:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Customer_$8_storage",
+                      "typeString": "struct Telecom.Customer storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "566:49:0"
                 },
                 {
                   "expression": {
-                    "id": 38,
+                    "id": 48,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "baseExpression": {
-                        "id": 29,
-                        "name": "customers",
+                      "expression": {
+                        "id": 44,
+                        "name": "customer",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13,
-                        "src": "473:9:0",
+                        "referencedDeclaration": 38,
+                        "src": "626:8:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Customer_$8_storage_$",
-                          "typeString": "mapping(address => struct telecom.Customer storage ref)"
+                          "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
+                          "typeString": "struct Telecom.Customer storage pointer"
                         }
                       },
-                      "id": 32,
-                      "indexExpression": {
-                        "expression": {
-                          "id": 30,
-                          "name": "msg",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 4294967281,
-                          "src": "483:3:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_magic_message",
-                            "typeString": "msg"
-                          }
-                        },
-                        "id": 31,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberLocation": "487:6:0",
-                        "memberName": "sender",
-                        "nodeType": "MemberAccess",
-                        "src": "483:10:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_address",
-                          "typeString": "address"
-                        }
-                      },
+                      "id": 46,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
-                      "nodeType": "IndexAccess",
-                      "src": "473:21:0",
+                      "memberLocation": "635:10:0",
+                      "memberName": "customerId",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3,
+                      "src": "626:19:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Customer_$8_storage",
-                        "typeString": "struct telecom.Customer storage ref"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "arguments": [
-                        {
-                          "id": 34,
-                          "name": "_customerId",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 15,
-                          "src": "506:11:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        },
-                        {
-                          "id": 35,
-                          "name": "_billDate",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 17,
-                          "src": "519:9:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        },
-                        {
-                          "id": 36,
-                          "name": "_billAmount",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 19,
-                          "src": "530:11:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        }
-                      ],
-                      "expression": {
-                        "argumentTypes": [
-                          {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          },
-                          {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          },
-                          {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        ],
-                        "id": 33,
-                        "name": "Customer",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 8,
-                        "src": "497:8:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_Customer_$8_storage_ptr_$",
-                          "typeString": "type(struct telecom.Customer storage pointer)"
-                        }
-                      },
-                      "id": 37,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "kind": "structConstructorCall",
-                      "lValueRequested": false,
-                      "nameLocations": [],
-                      "names": [],
-                      "nodeType": "FunctionCall",
-                      "src": "497:45:0",
-                      "tryCall": false,
+                      "id": 47,
+                      "name": "_customerId",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 15,
+                      "src": "648:11:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Customer_$8_memory_ptr",
-                        "typeString": "struct telecom.Customer memory"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
                       }
                     },
-                    "src": "473:69:0",
+                    "src": "626:33:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Customer_$8_storage",
-                      "typeString": "struct telecom.Customer storage ref"
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
                     }
                   },
-                  "id": 39,
+                  "id": 49,
                   "nodeType": "ExpressionStatement",
-                  "src": "473:69:0"
+                  "src": "626:33:0"
+                },
+                {
+                  "expression": {
+                    "id": 54,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "id": 50,
+                        "name": "customer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 38,
+                        "src": "670:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
+                          "typeString": "struct Telecom.Customer storage pointer"
+                        }
+                      },
+                      "id": 52,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "679:12:0",
+                      "memberName": "lastBillDate",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 5,
+                      "src": "670:21:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 53,
+                      "name": "_billDate",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 17,
+                      "src": "694:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "670:33:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 55,
+                  "nodeType": "ExpressionStatement",
+                  "src": "670:33:0"
+                },
+                {
+                  "expression": {
+                    "id": 60,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "id": 56,
+                        "name": "customer",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 38,
+                        "src": "714:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
+                          "typeString": "struct Telecom.Customer storage pointer"
+                        }
+                      },
+                      "id": 58,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberLocation": "723:14:0",
+                      "memberName": "lastBillAmount",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 7,
+                      "src": "714:23:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 59,
+                      "name": "_billAmount",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 19,
+                      "src": "740:11:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "714:37:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 61,
+                  "nodeType": "ExpressionStatement",
+                  "src": "714:37:0"
                 }
               ]
             },
             "functionSelector": "dfacf7f0",
-            "id": 41,
+            "id": 63,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "submitBill",
-            "nameLocation": "309:10:0",
+            "nameLocation": "322:10:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 20,
@@ -2786,10 +3394,10 @@
                   "id": 15,
                   "mutability": "mutable",
                   "name": "_customerId",
-                  "nameLocation": "328:11:0",
+                  "nameLocation": "341:11:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 41,
-                  "src": "320:19:0",
+                  "scope": 63,
+                  "src": "333:19:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2800,7 +3408,7 @@
                     "id": 14,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "320:7:0",
+                    "src": "333:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2813,10 +3421,10 @@
                   "id": 17,
                   "mutability": "mutable",
                   "name": "_billDate",
-                  "nameLocation": "349:9:0",
+                  "nameLocation": "362:9:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 41,
-                  "src": "341:17:0",
+                  "scope": 63,
+                  "src": "354:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2827,7 +3435,7 @@
                     "id": 16,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "341:7:0",
+                    "src": "354:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2840,10 +3448,10 @@
                   "id": 19,
                   "mutability": "mutable",
                   "name": "_billAmount",
-                  "nameLocation": "368:11:0",
+                  "nameLocation": "381:11:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 41,
-                  "src": "360:19:0",
+                  "scope": 63,
+                  "src": "373:19:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2854,7 +3462,7 @@
                     "id": 18,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "360:7:0",
+                    "src": "373:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2863,106 +3471,106 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "319:61:0"
+              "src": "332:61:0"
             },
             "returnParameters": {
               "id": 21,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "388:0:0"
+              "src": "401:0:0"
             },
-            "scope": 76,
-            "src": "300:249:0",
+            "scope": 98,
+            "src": "313:446:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 74,
+              "id": 96,
               "nodeType": "Block",
-              "src": "742:207:0",
+              "src": "955:223:0",
               "statements": [
                 {
                   "assignments": [
-                    52
+                    74
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 52,
+                      "id": 74,
                       "mutability": "mutable",
                       "name": "customer",
-                      "nameLocation": "765:8:0",
+                      "nameLocation": "983:8:0",
                       "nodeType": "VariableDeclaration",
-                      "scope": 74,
-                      "src": "748:25:0",
+                      "scope": 96,
+                      "src": "966:25:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
-                        "typeString": "struct telecom.Customer"
+                        "typeString": "struct Telecom.Customer"
                       },
                       "typeName": {
-                        "id": 51,
+                        "id": 73,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 50,
+                          "id": 72,
                           "name": "Customer",
                           "nameLocations": [
-                            "748:8:0"
+                            "966:8:0"
                           ],
                           "nodeType": "IdentifierPath",
                           "referencedDeclaration": 8,
-                          "src": "748:8:0"
+                          "src": "966:8:0"
                         },
                         "referencedDeclaration": 8,
-                        "src": "748:8:0",
+                        "src": "966:8:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
-                          "typeString": "struct telecom.Customer"
+                          "typeString": "struct Telecom.Customer"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 57,
+                  "id": 79,
                   "initialValue": {
                     "baseExpression": {
-                      "id": 53,
+                      "id": 75,
                       "name": "customers",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 13,
-                      "src": "776:9:0",
+                      "src": "994:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Customer_$8_storage_$",
-                        "typeString": "mapping(address => struct telecom.Customer storage ref)"
+                        "typeString": "mapping(address => struct Telecom.Customer storage ref)"
                       }
                     },
-                    "id": 56,
+                    "id": 78,
                     "indexExpression": {
                       "expression": {
-                        "id": 54,
+                        "id": 76,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 4294967281,
-                        "src": "786:3:0",
+                        "src": "1004:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
-                      "id": 55,
+                      "id": 77,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "790:6:0",
+                      "memberLocation": "1008:6:0",
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
-                      "src": "786:10:0",
+                      "src": "1004:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -2973,14 +3581,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "776:21:0",
+                    "src": "994:21:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Customer_$8_storage",
-                      "typeString": "struct telecom.Customer storage ref"
+                      "typeString": "struct Telecom.Customer storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "748:49:0"
+                  "src": "966:49:0"
                 },
                 {
                   "expression": {
@@ -2990,34 +3598,34 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 62,
+                        "id": 84,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "expression": {
-                            "id": 59,
+                            "id": 81,
                             "name": "customer",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 52,
-                            "src": "811:8:0",
+                            "referencedDeclaration": 74,
+                            "src": "1034:8:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
-                              "typeString": "struct telecom.Customer storage pointer"
+                              "typeString": "struct Telecom.Customer storage pointer"
                             }
                           },
-                          "id": 60,
+                          "id": 82,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
-                          "memberLocation": "820:10:0",
+                          "memberLocation": "1043:10:0",
                           "memberName": "customerId",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 3,
-                          "src": "811:19:0",
+                          "src": "1034:19:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3027,21 +3635,21 @@
                         "operator": ">",
                         "rightExpression": {
                           "hexValue": "30",
-                          "id": 61,
+                          "id": 83,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "833:1:0",
+                          "src": "1056:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
                             "typeString": "int_const 0"
                           },
                           "value": "0"
                         },
-                        "src": "811:23:0",
+                        "src": "1034:23:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3049,14 +3657,14 @@
                       },
                       {
                         "hexValue": "437573746f6d6572204944206e6f7420666f756e64",
-                        "id": 63,
+                        "id": 85,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "836:23:0",
+                        "src": "1059:23:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_8df1f55cc27a8ccf122a437be9b10bb0c4682cfb389ad4fd6c65f337f94ca002",
                           "typeString": "literal_string \"Customer ID not found\""
@@ -3075,7 +3683,7 @@
                           "typeString": "literal_string \"Customer ID not found\""
                         }
                       ],
-                      "id": 58,
+                      "id": 80,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -3083,13 +3691,13 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "803:7:0",
+                      "src": "1026:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 64,
+                    "id": 86,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3098,43 +3706,43 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "803:57:0",
+                    "src": "1026:57:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 65,
+                  "id": 87,
                   "nodeType": "ExpressionStatement",
-                  "src": "803:57:0"
+                  "src": "1026:57:0"
                 },
                 {
                   "expression": {
                     "components": [
                       {
                         "expression": {
-                          "id": 66,
+                          "id": 88,
                           "name": "customer",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 52,
-                          "src": "874:8:0",
+                          "referencedDeclaration": 74,
+                          "src": "1102:8:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
-                            "typeString": "struct telecom.Customer storage pointer"
+                            "typeString": "struct Telecom.Customer storage pointer"
                           }
                         },
-                        "id": 67,
+                        "id": 89,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "883:10:0",
+                        "memberLocation": "1111:10:0",
                         "memberName": "customerId",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 3,
-                        "src": "874:19:0",
+                        "src": "1102:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3142,27 +3750,27 @@
                       },
                       {
                         "expression": {
-                          "id": 68,
+                          "id": 90,
                           "name": "customer",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 52,
-                          "src": "895:8:0",
+                          "referencedDeclaration": 74,
+                          "src": "1123:8:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
-                            "typeString": "struct telecom.Customer storage pointer"
+                            "typeString": "struct Telecom.Customer storage pointer"
                           }
                         },
-                        "id": 69,
+                        "id": 91,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "904:12:0",
+                        "memberLocation": "1132:12:0",
                         "memberName": "lastBillDate",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 5,
-                        "src": "895:21:0",
+                        "src": "1123:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3170,80 +3778,80 @@
                       },
                       {
                         "expression": {
-                          "id": 70,
+                          "id": 92,
                           "name": "customer",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 52,
-                          "src": "918:8:0",
+                          "referencedDeclaration": 74,
+                          "src": "1146:8:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Customer_$8_storage_ptr",
-                            "typeString": "struct telecom.Customer storage pointer"
+                            "typeString": "struct Telecom.Customer storage pointer"
                           }
                         },
-                        "id": 71,
+                        "id": 93,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "927:14:0",
+                        "memberLocation": "1155:14:0",
                         "memberName": "lastBillAmount",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 7,
-                        "src": "918:23:0",
+                        "src": "1146:23:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         }
                       }
                     ],
-                    "id": 72,
+                    "id": 94,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "873:69:0",
+                    "src": "1101:69:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_uint256_$_t_uint256_$_t_uint256_$",
                       "typeString": "tuple(uint256,uint256,uint256)"
                     }
                   },
-                  "functionReturnParameters": 49,
-                  "id": 73,
+                  "functionReturnParameters": 71,
+                  "id": 95,
                   "nodeType": "Return",
-                  "src": "866:76:0"
+                  "src": "1094:76:0"
                 }
               ]
             },
             "functionSelector": "be9e03c2",
-            "id": 75,
+            "id": 97,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getCustomerLastBill",
-            "nameLocation": "633:19:0",
+            "nameLocation": "846:19:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 42,
+              "id": 64,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "652:2:0"
+              "src": "865:2:0"
             },
             "returnParameters": {
-              "id": 49,
+              "id": 71,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 44,
+                  "id": 66,
                   "mutability": "mutable",
                   "name": "customerId",
-                  "nameLocation": "684:10:0",
+                  "nameLocation": "897:10:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 75,
-                  "src": "676:18:0",
+                  "scope": 97,
+                  "src": "889:18:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3251,10 +3859,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 43,
+                    "id": 65,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "676:7:0",
+                    "src": "889:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3264,13 +3872,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 46,
+                  "id": 68,
                   "mutability": "mutable",
                   "name": "lastBillDate",
-                  "nameLocation": "704:12:0",
+                  "nameLocation": "917:12:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 75,
-                  "src": "696:20:0",
+                  "scope": 97,
+                  "src": "909:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3278,10 +3886,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 45,
+                    "id": 67,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "696:7:0",
+                    "src": "909:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3291,13 +3899,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 48,
+                  "id": 70,
                   "mutability": "mutable",
                   "name": "lastBillAmount",
-                  "nameLocation": "726:14:0",
+                  "nameLocation": "939:14:0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 75,
-                  "src": "718:22:0",
+                  "scope": 97,
+                  "src": "931:22:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3305,10 +3913,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 47,
+                    "id": 69,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "718:7:0",
+                    "src": "931:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3317,21 +3925,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "675:66:0"
+              "src": "888:66:0"
             },
-            "scope": 76,
-            "src": "624:325:0",
+            "scope": 98,
+            "src": "837:341:0",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 77,
-        "src": "58:894:0",
+        "scope": 99,
+        "src": "61:1120:0",
         "usedErrors": []
       }
     ],
-    "src": "32:920:0"
+    "src": "33:1150:0"
   },
   "compiler": {
     "name": "solc",
@@ -3341,12 +3949,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x88C40A72a0362Ec527225ea18c686acB00684994",
-      "transactionHash": "0xc8934aa164e48ae6689f29dc2b2466eef913056363dd6b505e1edf145de6f90e"
+      "address": "0xbA044C2a21e370f4a4c2DF09A455D050ad6d60a3",
+      "transactionHash": "0x4c91695e0187514600b537b9e053cea7f713e0b8c3b25c289dea514375751b42"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-11-03T19:37:37.359Z",
+  "updatedAt": "2023-11-16T02:28:01.647Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
